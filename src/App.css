@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: rgba(148, 20, 20, 0);
+  background-color: rgba(131, 131, 131, 0);
 }
 
 .App-logo {
@@ -47,6 +47,13 @@
 .card {
   display: flex;
   flex-direction: column;
+  width: 30%;
+}
+.moviesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
 }
 .search {
   border-radius: 10px;
