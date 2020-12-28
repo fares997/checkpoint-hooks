@@ -135,3 +135,13 @@ form input {
   background-color: black;
   color: bisque;
 }
+.des {
+  color: #282c34;
+}
+.descdiv {
+  display: flex;
+  flex-direction: column;
+}
+.paradisc {
+  margin-left: 500px;
+}

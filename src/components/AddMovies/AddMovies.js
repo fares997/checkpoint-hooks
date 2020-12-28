@@ -23,6 +23,7 @@ const AddMovie = ({addNewMovie}) =>{
     };
     const handleSubmit = (e) => {
       let newMovie = {
+        id:Math.random(),
         name,
         date,
         rating,

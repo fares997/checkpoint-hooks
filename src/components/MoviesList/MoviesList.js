@@ -4,7 +4,7 @@ const MovieList = ({movieList, nameSearch, ratingSearch}) => {
     return (
         <div className='moviesList'>
             
-            {movieList .filter(
+            {movieList.filter(
           (el) =>
             el.name.toLowerCase().includes(nameSearch.toLowerCase().trim()) &&
             el.rating >= ratingSearch
